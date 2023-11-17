@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "voice-commands"
+version = "0.1.0"
+description = ""
+authors = ["andrey.torsunov <andrey.torsunov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "voice_comands"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+vosk = "^0.3.45"
+pyaudio = "^0.2.14"
+numpy = "^1.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
